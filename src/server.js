@@ -11,7 +11,7 @@ const db = knex({
 
 setInterval(() => {
   userService.purge()
-}, 31000);
+},5000);
 
 app.set('db', db)
 
